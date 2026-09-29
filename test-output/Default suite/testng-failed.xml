@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day2.PostRequestBodyExamples">
+      <class name="Day10.SubmitOrder">
         <methods>
-          <include name="deleteTest"/>
-          <include name="PojoTest"/>
+          <include name="testSubmitAndDeleteOrder"/>
         </methods>
-      </class> <!-- Day2.PostRequestBodyExamples -->
+      </class> <!-- Day10.SubmitOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
